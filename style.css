@@ -2,13 +2,33 @@
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     height: 100%;
+    background-color: black;
+}
+
+.start {
+    background: green;
+}
+.stop {
+    background: red;
+}
+.reset {
+    background: yellow;
 }
 
 .wrapper {
     width: 800px;
     margin: 30px auto;
-    /* color: $white; */
     text-align: center;
+    background-color: white;
+    /* background: linear-gradient(109.6deg, rgb(5, 85, 84) 11.2%, rgb(64, 224, 208) 91.1%); */
+    box-shadow: 0px 0px 10px gray;
+    
+    padding-top: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 170px;
+    
 }
 
 h1,h2,h3 {
